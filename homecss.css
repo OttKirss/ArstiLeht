@@ -3,6 +3,7 @@ body {margin:0;}
 .navigation{
   overflow: hidden;
   background-color: #1C589C;
+  text-align: center;
 }
 
 .navigation a {
@@ -16,11 +17,16 @@ body {margin:0;}
 }
 
 .navigation a:hover {
-  background-color: #ddd;
+  background-color: #5294e0;
   color: black;
 }
 
-.navigation a.active {
-    background-color: #4CAF50;
+.navigation .active {
     color: white;
+}
+
+.panoram-pic {
+    width: 100%;
+    height: 100px;
+    background-color: black;
 }
