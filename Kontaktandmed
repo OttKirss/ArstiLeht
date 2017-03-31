@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="homecss.css">
+</head>
+<body>
+
+<div class="navigation">
+  <a href="Esileht.html">Esileht</a>
+  <a href="Patsiendi_info.html">Patsiendi info</a>
+  <a href="Arsti_vastuvõtt.html">Arsti vastuvõtt</a>
+  <a href="Pereoe_vastuvõtt.html">Pereõe vastuvõtt</a>
+  <a href="Vaktsineerimine.html">Vaktsineerimine</a>
+  <a href="Toendid.html">Tõendid</a>
+  <a href="Kontaktandmed.html">Kontaktandmed</a>
+</div>
+
+<div class="panoram-pic">
+  <img id="panoram" src="https://upload.wikimedia.org/wikipedia/commons/c/cd/View_from_connors_hill_panorama.jpg">
+</div>
+
+<div class="jumbotron">
+  <div class="content">
+    <div class="left">
+    </div>
+    <div class="main">
+    </div>
+  </div>
+</div>
+
+</body>
+</html>
