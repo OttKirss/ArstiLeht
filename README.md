@@ -1,2 +1,0 @@
-# ArstiLeht
-äge
