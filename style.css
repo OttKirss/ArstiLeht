@@ -54,7 +54,7 @@ body {
   display: inline-block;
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
-  box-shadow: 5px 5px 5px #4d4d4d;
+  box-shadow: 2px 2px 5px #4d4d4d;
   border: solid 1px #4d4d4d;
 }
 .left {
