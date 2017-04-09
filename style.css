@@ -37,7 +37,7 @@ body {
 }
 .panoram-pic {
   width: 100%;
-  height: 150px;
+  height: 200px;
   text-align: center;
 }
 #panoram {
@@ -90,10 +90,12 @@ h1{
   font-family: 'Tahoma';
   display: block;
   padding-left: 15px;
+  padding-right: 40px;
   border-left: solid 4px #1C589C;
   color: #000;
-  border-top-right-radius: 10px;
-  border-bottom-right-radius: 10px;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  border-radius: 10px;
   height: 40px;
   line-height: 40px;
   font-size: 17px;
@@ -101,6 +103,7 @@ h1{
   background-position: right top;
   background-repeat: no-repeat;
   cursor: pointer;
+  font-family: 'Poppins', sans-serif;
 }
 .sub-menu:hover{
   margin-bottom: 15px;
