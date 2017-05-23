@@ -152,3 +152,10 @@ span {
 a {
   text-decoration: none;
 }
+.main p {
+  display: inline-block;
+  width: 85%;
+  margin-left: 10%;
+  margin-right: 5%;
+  text-align: left;
+}
