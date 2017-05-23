@@ -114,6 +114,36 @@ h1{
   background-position: right top;
   background-repeat: no-repeat;
 }
+.sub-menu-active {
+  text-align: left;
+  margin-bottom: 15px;
+  font-family: 'Tahoma';
+  display: block;
+  padding-left: 15px;
+  padding-right: 40px;
+  border-left: solid 4px #2fbb2a;
+  color: #000;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  border-radius: 10px;
+  height: 40px;
+  line-height: 40px;
+  font-size: 17px;
+  background-image: url('pointy_arrow_sinine.jpg');
+  background-position: right top;
+  background-repeat: no-repeat;
+  cursor: pointer;
+  font-family: 'Poppins', sans-serif;
+}
+.sub-menu-active:hover{
+  margin-bottom: 15px;
+  color: #fff;
+  border-left: solid 4px #2fbb2a;
+  background-color: #1C589C;
+  background-image: url('pointy_arrow.png');
+  background-position: right top;
+  background-repeat: no-repeat;
+}
 span {
   display: inline-block;
   vertical-align: middle;
