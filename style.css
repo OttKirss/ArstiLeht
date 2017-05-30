@@ -2,7 +2,6 @@ body {
   margin:0 0 50px 0;
   background-repeat: no-repeat;
   background-size: cover;
-  
 }
 .navigation{
   overflow: hidden;
@@ -158,4 +157,10 @@ a {
   margin-left: 10%;
   margin-right: 5%;
   text-align: left;
+}
+.header_main {
+  text-align: left;
+  color: #1C589C;
+  margin-left: 10%;
+  margin-right: 5px;
 }
