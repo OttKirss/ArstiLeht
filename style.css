@@ -113,7 +113,6 @@ h1 {
   background-image: url('pointy_arrow.png');
   background-position: right top;
   background-repeat: no-repeat;
-  transition: 0.2s;
 }
 .sub-menu-active {
   text-align: left;
@@ -143,7 +142,6 @@ h1 {
   background-image: url('pointy_arrow.png');
   background-position: right top;
   background-repeat: no-repeat;
-  transition: 0.2s;
 }
 span {
   display: inline-block;
