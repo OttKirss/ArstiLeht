@@ -7,6 +7,7 @@ body {
 .navigation{
   overflow: hidden;
   width: 100%;
+  min-width: 879px;
   background-color: #1C589C;
   text-align: center;
   position: fixed;
@@ -53,15 +54,18 @@ body {
 .content {
   width: 83%;
   max-width: 1000px;
+  min-width: 890px;
   display: inline-block;
   border-top-left-radius: 0px;
   border-top-right-radius: 0px;
   box-shadow: 2px 2px 5px #4d4d4d;
   border: solid 0px #4d4d4d;
+  background-color: #fff;
 }
 .left {
   display: block;
   height: 700px;
+  min-width: 266px;
   width: 30%;
   float: left;
   background-color: #fff;
