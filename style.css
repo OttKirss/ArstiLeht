@@ -23,6 +23,7 @@ body {
 .navigation a:hover {
   background-color: #5294e0;
   color: black;
+  transition: 0.2s;
 }
 .navigation .active {
   border-bottom: solid 3px #2fbb2a;
@@ -112,6 +113,7 @@ h1 {
   background-image: url('pointy_arrow.png');
   background-position: right top;
   background-repeat: no-repeat;
+  transition: 0.2s;
 }
 .sub-menu-active {
   text-align: left;
@@ -141,6 +143,7 @@ h1 {
   background-image: url('pointy_arrow.png');
   background-position: right top;
   background-repeat: no-repeat;
+  transition: 0.2s;
 }
 span {
   display: inline-block;
