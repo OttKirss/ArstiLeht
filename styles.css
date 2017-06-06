@@ -1,0 +1,313 @@
+body {
+	margin: 0px;
+	height: 100%;
+}
+.Menu {
+	background-color: #C75127;
+	position: fixed;
+	bottom: 0;
+ 	width: 100%;
+ 	height: 55px;
+ 	text-align: left;
+ 	overflow: hidden;
+ 	margin-bottom: 0px;
+ 	box-shadow: 3px 3px 5px #B4B4B4;
+}
+.Menu a {
+	background-color: #C75127;
+	display: inline-block;
+	font-family: garamond;
+	font-size: 155%;
+	color: #000000;
+	margin: -2px;
+	text-decoration: none;
+	padding: 17px 30px 15px;
+	height: 100%;
+}
+.Menu a:hover {
+  	background-color: #ffffff;
+  	border: none;
+  	transition: 0.3s
+}
+.active {
+  	background-color: #ffffff;
+}
+.header {
+	height: 80px;
+	width: 100%;
+	background-color: #EBEBEB;
+	box-shadow: 3px 3px 5px #B4B4B4;
+}
+#logo {
+	display: block;
+	float: left;
+	height: 85px;
+	margin-left: -5px;
+}
+.joon {
+	position: absolute;
+	border-top: 10px;
+	margin-left: 120px;
+	margin-top: 12px;
+	padding-bottom: 40px;
+	border-left: 1px solid #C75127;
+}
+p {
+	position: absolute;
+	margin-top: 24px;
+	margin-left: 140px;
+}
+.joon2 {
+	position: absolute;
+	border-top: 10px;
+	margin-left: 630px;
+	margin-top: 12px;
+	padding-bottom: 40px;
+	border-left: 1px solid #C75127;
+}
+#facebook {
+	float: right;
+	height: 45px;
+	margin-right: 6px;
+	margin-top: 5px;
+}
+#twitter {
+	float: right;
+	height: 45px;
+	margin-right: 6px;
+	margin-top: 5px;
+}
+.login {
+	float:right;
+	font-family: garamond;
+	font-size: 32px;
+	margin-top: 21px;
+	margin-right: 25px;
+}
+.login a {
+	text-decoration: none;
+	color: #000000;
+}
+#padi {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin-top: -270px;
+	margin-left: -135px;
+	height: 270px;
+	width: 270px;
+}
+#valve {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin-top: -270px;
+	margin-left: -405px;
+	height: 270px;
+	width: 270px;
+}
+#venenatis {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin-top: -270px;
+	margin-left: 135px;
+	height: 270px;
+	width: 270px;
+}
+#avokaado {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin-left: -405px;
+	height: 270px;
+	width: 270px;
+}
+#recycle {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin-left: -135px;
+	height: 270px;
+	width: 270px;
+}
+#kell {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin-left: 135px;
+	height: 270px;
+	width: 270px;
+}
+#padi:hover {
+	margin-top: -285px;
+	margin-left: -150px;
+	height: 300px;
+	width: 300px;
+	z-index: 999;
+	box-shadow: 4px 4px 5px #4d4d4d;
+	transition: 0.2s
+}
+#valve:hover {
+	margin-top: -285px;
+	margin-left: -420px;
+	height: 300px;
+	width: 300px;
+	z-index: 999;
+	box-shadow: 4px 4px 5px #4d4d4d;
+	transition: 0.2s
+}
+#venenatis:hover {
+	margin-top: -285px;
+	margin-left: 120px;
+	height: 300px;
+	width: 300px;
+	z-index: 999;
+	box-shadow: 4px 4px 5px #4d4d4d;
+	transition: 0.2s
+}
+#avokaado:hover {
+	margin-top: -15px;
+	margin-left: -420px;
+	height: 300px;
+	width: 300px;
+	z-index: 999;
+	box-shadow: 4px 4px 5px #4d4d4d;
+	transition: 0.2s
+}
+#recycle:hover {
+	margin-top: -15px;
+	margin-left: -150px;
+	height: 300px;
+	width: 300px;
+	z-index: 999;
+	box-shadow: 4px 4px 5px #4d4d4d;
+	transition: 0.2s
+}
+#kell:hover {
+	margin-top: -15px;
+	margin-left: 120px;
+	height: 300px;
+	width: 300px;
+	z-index: 999;
+	box-shadow: 4px 4px 5px #4d4d4d;
+	transition: 0.2s
+}
+#paditekst {
+	position: absolute;
+	bottom: 50%;
+	left: 50%;
+	margin-bottom: 270px;
+	background-color: #EBEBEB;
+	height: 50px;
+	width: 90px;
+	margin-left: -45px;
+	text-align: center;
+	font-size: 24px;
+	padding-top: 10px;
+	box-shadow: 4px 4px 5px #4d4d4d;
+}
+#valvetekst {
+	position: absolute;
+	bottom: 50%;
+	left: 50%;
+	margin-bottom: 270px;
+	background-color: #EBEBEB;
+	height: 50px;
+	width: 150px;
+	margin-left: -335px;
+	text-align: center;
+	font-size: 24px;
+	padding-top: 10px;
+	box-shadow: 4px 4px 5px #4d4d4d;
+}
+#venenatistekst {
+	position: absolute;
+	bottom: 50%;
+	left: 50%;
+	margin-bottom: 270px;
+	background-color: #EBEBEB;
+	height: 50px;
+	width: 100px;
+	margin-left: 220px;
+	text-align: center;
+	font-size: 24px;
+	padding-top: 10px;
+	box-shadow: 4px 4px 5px #4d4d4d;
+}
+#avokaadotekst {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin-top: 270px;
+	background-color: #EBEBEB;
+	height: 50px;
+	width: 80px;
+	margin-left: -310px;
+	text-align: center;
+	font-size: 24px;
+	padding-top: 10px;
+	box-shadow: 4px 4px 5px #4d4d4d;
+}
+#recycletekst {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin-top: 270px;
+	background-color: #EBEBEB;
+	height: 50px;
+	width: 140px;
+	margin-left: -70px;
+	text-align: center;
+	font-size: 24px;
+	padding-top: 10px;
+	box-shadow: 4px 4px 5px #4d4d4d;
+}
+#kelltekst {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin-top: 270px;
+	background-color: #EBEBEB;
+	height: 50px;
+	width: 110px;
+	margin-left: 225px;
+	text-align: center;
+	font-size: 24px;
+	padding-top: 10px;
+	box-shadow: 4px 4px 5px #4d4d4d;
+}
+.images {
+	font-family: garamond;
+}
+#tekst1, #tekst2, #tekst3 {
+	margin-top: 15px;
+}
+.sidebar {
+	position: absolute;
+	margin-top: 160px;
+	background-color: #ffffff;
+	margin-left: 0px;
+	z-index: 999;
+	height: 405px;
+	width: 70px;
+}
+.sidebar a {
+    margin-right: 20px;
+    padding: 10px;
+    text-decoration: none;
+    font-size: 25px;
+    font-family: garamond;
+    text-align: center;
+    background-color: #EBEBEB;
+    display: block;
+    transition: 0.3s
+    width: 50px;
+    color: #111;
+    box-shadow: 4px 4px 5px #4d4d4d;
+}
+.sidebar a:hover {
+    background-color: #EBEBEB;
+    width: 60px;
+    transition: 0.2s;
+}
