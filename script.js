@@ -19,4 +19,44 @@ $("#info4").click(function(){
         $("#infoh1").text("Hinnakiri");
         $("#infop").html("<a href='http://www.maheperearst.ee/index.php?picfile=6'> http://www.maheperearst.ee/index.php?picfile=6</a>");
 });
+$("#arsti0").click(function(){
+        $("#arstih1").text("Dr. Vanda Kristjan");
+        $("#arstip").html("Vastuvõtule tuleb registreeruda telefonil <strong>623 8002</strong><strong></br>E  &nbsp&nbsp&nbsp&nbsp   9 - 13</strong></br><strong>T   &nbsp&nbsp&nbsp&nbsp  14 - 18</strong></br><strong>K   &nbsp&nbsp&nbsp&nbsp  12 - 16 (terved imikud)</strong></br><strong>N    &nbsp&nbsp&nbsp&nbsp   8 - 12</strong></br><strong>R   &nbsp&nbsp&nbsp&nbsp  12 - 16</strong>");
+});
+$("#arsti1").click(function(){
+        $("#arstih1").text("Dr. Arved Kristjan");
+        $("#arstip").html("Vastuvõtule tuleb registreeruda telefonil <strong>623 8002</strong></br><strong>E  &nbsp&nbsp&nbsp&nbsp   9 - 13</strong></br><strong>T   &nbsp&nbsp&nbsp&nbsp  14 - 18</strong></br><strong>K   &nbsp&nbsp&nbsp&nbsp  12 - 16 (terved imikud)</strong></br><strong>N    &nbsp&nbsp&nbsp&nbsp   8 - 12</strong></br><strong>R   &nbsp&nbsp&nbsp&nbsp  12 - 16</strong>");
+});
+$("#arsti2").click(function(){
+        $("#arstih1").text("Dr. Tiina Saks");
+        $("#arstip").html("Vastuvõtule tuleb registreeruda telefonil <strong>623 8002</strong>");
+});
+$("#Vaktsineerimine0").click(function(){
+        $("#Vaktsineerimineh1").text("Imikute ja väikelaste plaaniline vaktsineerimine");
+        $("#Vaktsineeriminep").html('Teostame kõiki riiklikus immuniseerimiskavas nimetatud vaktsineerimisi. <a href="https://www.riigiteataja.ee/akt/107072011003%22%3E https://www.riigiteataja.ee/akt/107072011003</a> .</br> <p>Tervete imikute ja väikelaste vaktsineerimine toimub kolmapäeviti ja neljapäeviti. Täpse aja kokkuleppimiseks tuleks helistada telefonil <strong>623 8002</strong>');
+});
+$("#Vaktsineerimine1").click(function(){
+        $("#Vaktsineerimineh1").text("Täiendav vabatahtlik vaktsineerimine");
+        $("#Vaktsineeriminep").html("Teostame järgmiste haigustekitajate vastaseid vaktsineerimisi: - puukentsefaliidiviirus</br>- gripiviirus (<em>Influenzae</em>)</br> - pneumokokk (<em>Streptococcus pneumonia</em>)</br>   - A-hepatiidiviirus</br>   - B-hepatiidiviirus</br>   - tuulerõugeviirus (<em>Varicella</em>)</br>   - papilloomiviirus (HPV)</br></br>");
+});
+$("#toendid0").click(function(){
+        $("#toendidh1").text("Juhiloa tervisetõend");
+        $("#toendidp").html("Väljastame juhiloa tervisetõendit meie keskuse nimistute patsientidele.</br></br>Tervisetõendi taotlemiseks helistage palun telefonil</br> <strong>623 8002</strong> ja leppige pereõega aeg kokku.</br></br>Tervisetõend on tasuline ja maksab :</br>- <strong>20 eurot</strong>, kui on täidetud e-tervisedeklaratsioon patsiendiportaalis,</br>- <strong>30 eurot</strong>, kui tervisedeklaratsioon on täidetud paberil.");
+});
+$("#toendid1").click(function(){
+        $("#toendidh1").text("Toidukäitleja tervisetõend");
+        $("#toendidp").html("Väljastame juhiloa tervisetõendit meie keskuse nimistute patsientidele.</br></br>Tervisetõendi taotlemiseks helistage palun telefonil</br> <strong>623 8002</strong> ja leppige pereõega aeg kokku.</br></p>Tervisetõend on tasuline ja maksab <strong>45 eurot</strong>.");
+});
+$("#toendid2").click(function(){
+        $("#toendidh1").text("Tervisetõend Kaitseväe arstlikule komisjonile");
+        $("#toendidp").html("Tervisetõendi vormistamiseks kaitseväe arstlikule komisjonile tuleb helistada telefonil <strong>623 8002 </strong>ja broneerida aeg arsti vastuvõtule.</br></br>Tervisetõend on kutsealusele tasuta.");
+});
+$("#toendid3").click(function(){
+        $("#toendidh1").text("Relvaloa tervisetõend");
+        $("#toendidp").html("Väljastame juhiloa tervisetõendit meie keskuse nimistute patsientidele.</br></br>Tervisetõendi taotlemiseks tuleb käia psühhiaatri vastuvõtul. Selleks vajalike paberite vormistamiseks palun helistage telefonil</br> <strong>623 8002 </strong> ja leppige pereõega aeg kokku.</br></br>Tervisetõend on tasuline ja maksab <strong>20 eurot</strong>.");
+});
+$("#toendid4").click(function(){
+        $("#toendidh1").text("Muud tervisetõendid ");
+        $("#toendidp").html("Muudel eesmärkidel väljastatud tervisetõend maksab <strong>20 eurot</strong>.</br></br>Väljastame tervisetõendeid töökohale, kindlustusele, spordiklubidele ja vajadusel muul eesmärgil.</br></br>Klienditeenindaja tervisetõendi taotlemiseks tuleb teha rindkere röntgenuuring. Saatekirja saamiseks palun helistage telefonil</br> <strong>623 8002 </strong> ja leppige pereõega aeg kokku.");
+});
 });
